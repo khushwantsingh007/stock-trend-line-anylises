@@ -1,0 +1,94 @@
+body {
+    background-color: #1a1a2e;
+    color: #e6e6e6;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #0f3460;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background-color: #16213e;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #0f3460;
+    border-bottom: 1px solid #1a1a2e;
+}
+
+.form-control, .form-select {
+    background-color: #1a1a2e;
+    color: white;
+    border: 1px solid #4e4e6a;
+}
+
+.form-control:focus {
+    background-color: #1a1a2e;
+    color: white;
+    border-color: #4cc9f0;
+    box-shadow: 0 0 0 0.25rem rgba(76, 201, 240, 0.25);
+}
+
+.chart-container {
+    height: 500px;
+    width: 100%;
+}
+
+.news-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #1a1a2e;
+    border-radius: 5px;
+    border-left: 3px solid #4cc9f0;
+}
+
+.news-item a {
+    color: #4cc9f0;
+    text-decoration: none;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+.tab-content {
+    background-color: #1a1a2e;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #0f3460;
+}
+
+.nav-tabs .nav-link {
+    color: #e6e6e6;
+    background-color: #16213e;
+    border: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #4cc9f0;
+    background-color: #1a1a2e;
+    border-color: #0f3460 #0f3460 #1a1a2e;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #0f3460 #0f3460 #1a1a2e;
+}
+
+#predictionValues .badge {
+    font-size: 0.9rem;
+}
+
+#predictionValues .h5 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
